@@ -1,0 +1,32 @@
+.side-nav {
+    @apply flex-col flex-auto items-center flex-shrink-0 z-50 transition-all ease-in-out  h-screen p-5  pt-8 relative duration-500 bg-white;
+}
+.side-nav-header {
+    @apply relative;
+}
+.side-nav-expand {
+    @apply w-60;
+}
+.side-nav-small {
+    @apply flex items-center justify-center;
+}
+.side-nav-item-choose {
+    @apply bg-light-blue text-main-blue;
+}
+.side-nav-content {
+    @apply flex px-2 py-3 cursor-pointer hover:bg-light-blue duration-300 text-black hover:text-main-blue text-sm items-center gap-x-4 rounded-xl;
+}
+.side-nav-toggle {
+    @apply absolute top-0 -right-6 translate-y-1/2 z-50;
+}
+.side-nav-light {
+    @apply bg-white border-r border-gray-200;
+}
+
+.side-nav-dark {
+    @apply bg-gray-800 border-r border-gray-600;
+}
+
+.side-nav-transparent {
+    @apply bg-transparent;
+}
